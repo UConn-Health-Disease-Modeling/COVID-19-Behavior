@@ -3,51 +3,18 @@ Collaboration Network Analysis
 
 ## Project Overview
 
-This project aims to analyze the collaboration network of
-Otolaryngolotist from the United States. The data were collected and
-maintained by research group led by Dr. Alexander Gelbard from the
-[Department of Otolaryngology](https://www.vumc.org/ent/) at the
-[Vanderbilt University Medical Center](https://www.vumc.org/main/home)
-(VUMC). The statistical analyses were led by Drs. Panpan Zhang from the
-[Department of
-Biostatistics](https://www.vumc.org/biostatistics/vanderbilt-department-biostatistics)
-at VUMC and Jun Yan from the [Department of
-Statistics](https://statistics.uconn.edu/) at the University of
-Connecticut (UConn).
+This project aims to analyze the impcat of behavior adaptation by immune status for COVID-19  based on South Korea's data. 
+The data were obtained from Our World in Data (https://ourworldindata.org/coronavirus/country/south-korea) 
+The project was done under the supervision of Dr. Youngji Jo and incolaboration with Prof. Bruno Buonomo and Dr. Jaehun Jung.
 
-## Network Measures
 
-For each of the network measures listed in this section, we will not
-only investigate the existing methods in the literature but also explore
-the potential of new method development.
+#### Methods 
+We used a compartmental model, that classifies the overall transmission into two parts: transmission occuring among parially immune (vaccinated or habve prior infection) individuals and that occuring among
+susceptible  ones. The vaccination and testing rates are influenced by human behavior which intrun influenced by level of prevalence and severity of the disease.
+The model is ruled by non-linear ordinary differential equations. We varyed the balues of several behavioral parameters to see their impact on overall burdon of the disease.  
 
-### Assortativity
 
-Most standard methods can be found in the `igraph` package (Csárdi et
-al. 2024).
-
-#### Methods for Weighted, Directed Networks
-
-- Yuan, Yan, and Zhang (2021)
-- Yuan et al. (2023)
-
-#### Methods (Pending for Development)
-
-- Liu et al. (2018)
-- Tu et al. (2023)
-- Tu, Li, and Shepherd (2024)
-
-### Clustering Coefficient
-
-### Global Efficiency
-
-### Community Detection
-
-### Node-Level Centrality
-
-#### PageRank
-
-#### Betweenness
+### Numerical simulation
 
 ## References
 
