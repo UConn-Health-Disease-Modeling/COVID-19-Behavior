@@ -1,4 +1,4 @@
-# COVID-19-model-with-behavior-adaptation
+# The impact of human behavioral adaptation stratified by immune status on COVID-19 spread with application to South Korea
 ## Project Overview
 This repository shares python codes for behavioral COVID-19 model. A compartmental model is used to reperesnet the transmission of the disease 
 in the population. The total population is divided in to two based on thier immune status: susceptible and partially-immune (vaccinated or recovered from the disease). People in this group are further sub-divided into 15 compartments based on their disease or vaccination status. In this model the vaccination and testing rate are dependent on the disease status (prevalence and severity) in the population and takes into account the differences risk perception based on immune status. This project aims to analyze the effect of behavior adaptation on care-seeking  and transmission of COVID-19. 
